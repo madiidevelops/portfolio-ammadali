@@ -34,8 +34,7 @@ It’s a showcase of my journey, projects, and skills in **front-end, back-end, 
 ---
 
 ## 🌍 Live Demo
-👉 [Visit My Portfolio](ammadali.fwh.is)  
-*(Replace with your actual link once deployed)*
+👉 [Visit My Portfolio](https://ammadali.fwh.is)
 
 ---
 
@@ -53,9 +52,11 @@ I enjoy blending creativity with technology — from **crafting stunning web int
 ---
 
 ## 📬 Contact
-- **Email:** [your-email@example.com](mailto:ammadali36365@gmail.com)  
-- **LinkedIn:** [www.linkedin.com/in/ammadali365](#)  
-- **GitHub:** [github.com/madiidevelops](#)
+## 📬 Contact
+- **Email:** [ammadali36365@gmail.com](mailto:ammadali36365@gmail.com)  
+- **LinkedIn:** [linkedin.com/in/ammadali365](https://www.linkedin.com/in/ammadali365)  
+- **GitHub:** [github.com/madiidevelops](https://github.com/madiidevelops)
+
 
 ---
 
