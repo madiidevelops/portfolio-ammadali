@@ -50,8 +50,6 @@ I enjoy blending creativity with technology — from **crafting stunning web int
 - Connect to a backend for dynamic project loading  
 
 ---
-
-## 📬 Contact
 ## 📬 Contact
 - **Email:** [ammadali36365@gmail.com](mailto:ammadali36365@gmail.com)  
 - **LinkedIn:** [linkedin.com/in/ammadali365](https://www.linkedin.com/in/ammadali365)  
