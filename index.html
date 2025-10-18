@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Ammad Ali - Web Developer & CEO</title>
+</head>
+<body>
+  <!-- PARTICLE NETWORK BACKGROUND -->
+  <canvas id="particleNetwork"></canvas>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <div class="crown-svg">
+        <svg width="32" height="32" viewBox="0 0 32 32">
+          <path d="M16 4L20 12L28 14L22 20L24 28L16 24L8 28L10 20L4 14L12 12L16 4Z" 
+                fill="url(#logoGradient)"/>
+        </svg>
+      </div>
+      <span class="logo-text">AMMAD<span class="logo-accent">ALI</span></span>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="resume.pdf" class="resume-btn"><i class="fas fa-download"></i>Download Resume</a>
+    <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h2>Hello, I am</h2>
+      <h1>Ammad Ali 
+        <span class="highlight typing-container">
+          <span class="typed-text" 
+                data-words='["Web Developer", "Cyber Security Expert", "AI Engineer", "Tech CEO", "Full Stack Developer", "UI/UX Designer"]' 
+                data-wait="2000">
+            Web Developer
+          </span>
+          <span class="cursor">&nbsp;</span>
+        </span>
+      </h1>
+      <p>
+        I specialize in creating modern, user-friendly websites with clean design
+        and powerful functionality. Passionate about web development & AI.
+      </p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn-primary">Hire Me</a>
+        <a href="#projects" class="btn-secondary">View Projects</a>
+      </div>
+    </div>
+
+    <div class="orbit-wrapper">
+      <!-- Center Illustration -->
+      <div class="center-illustration">
+        <img src="scor.png" alt="Ammad Ali">
+      </div>
+
+      <!-- Orbit 2 -->
+      <div class="orbit orbit2">
+        <img src="icons8-html5-48.png" alt="HTML" class="orbit-icon" style="--i:0;">
+        <img src="icons8-css-48.png" alt="CSS" class="orbit-icon" style="--i:1;">
+        <img src="icons8-javascript-48.png" alt="JS" class="orbit-icon" style="--i:2;">
+      </div>
+
+      <!-- Orbit 3 -->
+      <div class="orbit orbit3">
+        <img src="icons8-ai-48.png" alt="AI" class="orbit-icon" style="--i:0;">
+        <img src="icons8-c-48.png" alt="C++" class="orbit-icon" style="--i:1;">
+        <img src="icons8-corel-draw-48.png" alt="Corel Draw" class="orbit-icon" style="--i:2;">
+        <img src="icons8-cybersecurity-48.png" alt="Cybersecurity" class="orbit-icon" style="--i:3;">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="section-title">
+      <h2>About Me</h2>
+    </div>
+    <div class="about-content">
+      <div class="about-img">
+        <img src="ammad-ali.jpg" alt="Ammad Ali">
+      </div>
+      <div class="about-text">
+        <h3>Professional Web Developer & CEO</h3>
+        <p>With over 5 years of experience in web development, I have honed my skills in creating responsive, user-friendly websites and applications. My passion for technology drives me to stay updated with the latest trends and tools in the industry.</p>
+        <p>As a CEO, I lead a team of talented developers and designers, ensuring we deliver high-quality solutions that exceed client expectations. My expertise spans front-end and back-end development, UI/UX design, and digital strategy.</p>
+        
+        <!-- Modern Circular Skill Meters -->
+        <div class="skills-section">
+          <h4>Technical Expertise</h4>
+          <div class="modern-skill-meters">
+            
+            <div class="circular-meter">
+              <div class="circle-container">
+                <svg class="progress-ring" width="120" height="120">
+                  <circle class="progress-ring-background" cx="60" cy="60" r="52" stroke-width="8"></circle>
+                  <circle class="progress-ring-circle" cx="60" cy="60" r="52" stroke-width="8" 
+                          stroke-dasharray="326.56" stroke-dashoffset="326.56" data-percent="95"></circle>
+                </svg>
+                <div class="circle-content">
+                  <span class="circle-percent">95%</span>
+                  <span class="circle-label">HTML/CSS</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="circular-meter">
+              <div class="circle-container">
+                <svg class="progress-ring" width="120" height="120">
+                  <circle class="progress-ring-background" cx="60" cy="60" r="52" stroke-width="8"></circle>
+                  <circle class="progress-ring-circle" cx="60" cy="60" r="52" stroke-width="8" 
+                          stroke-dashoffset="326.56" data-percent="90"></circle>
+                </svg>
+                <div class="circle-content">
+                  <span class="circle-percent">90%</span>
+                  <span class="circle-label">JavaScript</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="circular-meter">
+              <div class="circle-container">
+                <svg class="progress-ring" width="120" height="120">
+                  <circle class="progress-ring-background" cx="60" cy="60" r="52" stroke-width="8"></circle>
+                  <circle class="progress-ring-circle" cx="60" cy="60" r="52" stroke-width="8" 
+                          stroke-dashoffset="326.56" data-percent="85"></circle>
+                </svg>
+                <div class="circle-content">
+                  <span class="circle-percent">85%</span>
+                  <span class="circle-label">React</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="circular-meter">
+              <div class="circle-container">
+                <svg class="progress-ring" width="120" height="120">
+                  <circle class="progress-ring-background" cx="60" cy="60" r="52" stroke-width="8"></circle>
+                  <circle class="progress-ring-circle" cx="60" cy="60" r="52" stroke-width="8" 
+                          stroke-dashoffset="326.56" data-percent="80"></circle>
+                </svg>
+                <div class="circle-content">
+                  <span class="circle-percent">80%</span>
+                  <span class="circle-label">Node.js</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="circular-meter">
+              <div class="circle-container">
+                <svg class="progress-ring" width="120" height="120">
+                  <circle class="progress-ring-background" cx="60" cy="60" r="52" stroke-width="8"></circle>
+                  <circle class="progress-ring-circle" cx="60" cy="60" r="52" stroke-width="8" 
+                          stroke-dashoffset="326.56" data-percent="75"></circle>
+                </svg>
+                <div class="circle-content">
+                  <span class="circle-percent">75%</span>
+                  <span class="circle-label">Python</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="circular-meter">
+              <div class="circle-container">
+                <svg class="progress-ring" width="120" height="120">
+                  <circle class="progress-ring-background" cx="60" cy="60" r="52" stroke-width="8"></circle>
+                  <circle class="progress-ring-circle" cx="60" cy="60" r="52" stroke-width="8" 
+                          stroke-dashoffset="326.56" data-percent="88"></circle>
+                </svg>
+                <div class="circle-content">
+                  <span class="circle-percent">88%</span>
+                  <span class="circle-label">UI/UX</span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+        <!-- Existing Skills Tags -->
+        <div class="skills">
+          <span class="skill">HTML5</span>
+          <span class="skill">CSS3</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">React</span>
+          <span class="skill">Node.js</span>
+          <span class="skill">Python</span>
+          <span class="skill">UI/UX Design</span>
+          <span class="skill">Responsive Design</span>
+          <span class="skill">SEO</span>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="section-title">
+      <h2>My Projects</h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="E-commerce Website">
+        </div>
+        <div class="project-info">
+          <h3>E-commerce Platform</h3>
+          <p>A fully responsive e-commerce website with shopping cart, payment integration, and admin dashboard.</p>
+          <div class="project-tags">
+            <span class="project-tag">React</span>
+            <span class="project-tag">Node.js</span>
+            <span class="project-tag">MongoDB</span>
+          </div>
+          <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80" alt="Finance Dashboard">
+        </div>
+        <div class="project-info">
+          <h3>Finance Dashboard</h3>
+          <p>Interactive financial dashboard with data visualization, reporting tools, and real-time updates.</p>
+          <div class="project-tags">
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">D3.js</span>
+            <span class="project-tag">Firebase</span>
+          </div>
+          <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-img">
+          <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Task Management App">
+        </div>
+        <div class="project-info">
+          <h3>Task Management App</h3>
+          <p>Productivity application for team collaboration with task tracking, deadlines, and progress monitoring.</p>
+          <div class="project-tags">
+            <span class="project-tag">Vue.js</span>
+            <span class="project-tag">Express</span>
+            <span class="project-tag">MySQL</span>
+          </div>
+          <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="section-title">
+      <h2>My Services</h2>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <h3>Web Development</h3>
+        <p>Custom website development with modern technologies, responsive design, and optimal performance.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-paint-brush"></i>
+        </div>
+        <h3>UI/UX Design</h3>
+        <p>User-centered design approach creating intuitive interfaces that enhance user experience.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+        <h3>App Development</h3>
+        <p>Cross-platform mobile application development for iOS and Android using latest frameworks.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <h3>SEO Optimization</h3>
+        <p>Improve your website's visibility on search engines with proven SEO strategies and techniques.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-title">
+      <h2>Client Testimonials</h2>
+    </div>
+    <div class="testimonials-container">
+      <div class="testimonial-card">
+        <p class="testimonial-text">"Ammad delivered an exceptional website for our business. His attention to detail and technical expertise exceeded our expectations. The project was completed on time and within budget."</p>
+        <div class="testimonial-author">
+          <div class="author-img">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Doe">
+          </div>
+          <div class="author-info">
+            <h4>John Doe</h4>
+            <p>CEO, Tech Solutions Inc.</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text">"Working with Ammad was a great experience. He understood our vision and transformed it into a beautiful, functional website. His communication throughout the process was excellent."</p>
+        <div class="testimonial-author">
+          <div class="author-img">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson">
+          </div>
+          <div class="author-info">
+            <h4>Sarah Johnson</h4>
+            <p>Marketing Director, Creative Agency</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section class="blog" id="blog">
+    <div class="section-title">
+      <h2>Latest Blog Posts</h2>
+    </div>
+    <div class="blog-grid">
+      <div class="blog-card">
+        <div class="blog-img">
+          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Web Development Trends">
+        </div>
+        <div class="blog-info">
+          <span class="blog-date">June 15, 2023</span>
+          <h3>Top Web Development Trends in 2023</h3>
+          <p>Explore the latest technologies and methodologies shaping the future of web development.</p>
+          <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-img">
+          <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="AI in Web Design">
+        </div>
+        <div class="blog-info">
+          <span class="blog-date">May 28, 2023</span>
+          <h3>How AI is Revolutionizing Web Design</h3>
+          <p>Discover how artificial intelligence is transforming the way we approach web design and user experience.</p>
+          <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-img">
+          <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80" alt="Mobile-First Design">
+        </div>
+        <div class="blog-info">
+          <span class="blog-date">April 12, 2023</span>
+          <h3>Why Mobile-First Design is Essential</h3>
+          <p>Learn why adopting a mobile-first approach is crucial for modern web development and user engagement.</p>
+          <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="section-title">
+      <h2>Get In Touch</h2>
+    </div>
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Location</h4>
+            <p>Kotli Azad Kashmir, Pakistan</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Email</h4>
+            <p>ammadali36365@example.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Phone</h4>
+            <p>+92317 3557206</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Working Hours</h4>
+            <p>Mon - Fri: 9AM - 6PM</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" class="form-control" placeholder="Enter subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" class="form-control" placeholder="Enter your message" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <!-- Fixed Footer Logo -->
+      <div class="logo">
+        <div class="crown-svg">
+          <svg width="24" height="24" viewBox="0 0 32 32">
+            <path d="M16 4L20 12L28 14L22 20L24 28L16 24L8 28L10 20L4 14L12 12L16 4Z" 
+                  fill="url(#logoGradient)"/>
+          </svg>
+        </div>
+        <span class="logo-text">AMMAD<span class="logo-accent">ALI</span></span>
+      </div>
+      <div class="social-links">
+        <a href="https://www.facebook.com/profile.php?id=61554032702434&mibextid=ZbWKwL" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/ammadal689?t=TaV5FdgHhVyPD4qvCqJJ_g&s=09" class="social-link"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/ammadali365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/ammadali_321?igsh=MWR3MWpleHhuY3Y5MQ==" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/madiidevelops" class="social-link"><i class="fab fa-github"></i></a>
+      </div>
+      <p>&copy; 2025 Ammad Ali. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Resume Modal -->
+  <div id="resumeModal" class="resume-modal">
+    <div class="resume-modal-content">
+      <span class="resume-close">&times;</span>
+      <iframe src="resume.pdf" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <!-- SINGLE SVG GRADIENT DEFINITION AT BOTTOM -->
+  <svg style="position: absolute; width: 0; height: 0;" aria-hidden="true">
+    <defs>
+      <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FF6B35" />
+        <stop offset="50%" stop-color="#FF8E53" />
+        <stop offset="100%" stop-color="#4cc9f0" />
+      </linearGradient>
+      <linearGradient id="skillGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FF6B35" />
+        <stop offset="100%" stop-color="#4cc9f0" />
+      </linearGradient>
+    </defs>
+  </svg>
+</body>
+</html>
